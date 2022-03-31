@@ -6,13 +6,12 @@
 int main(int argc, char const *argv[])
 {
     int vt[N];
-    int *pint;
-    pint = vt;
 
     for(int i = 0; i < N; i++)
     {
-        *(vt+i) = 1 + rand() % 100;
-        printf("%d ", vt[i]);
+        *(vt + i) = 1 + rand() % 100;
+        printf("%d ", *(vt + i));
     }
     return 0;
+    
 }
