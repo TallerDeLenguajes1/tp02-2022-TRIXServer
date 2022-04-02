@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     for(int i = 0; i < N; i++)
     {
         vt[i] = 1 + rand() % 100;
-        printf("%d ", vt[i]);
+        printf("%d\t", vt[i]);
     }
     return 0;
 }
