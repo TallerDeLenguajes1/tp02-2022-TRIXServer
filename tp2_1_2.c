@@ -5,12 +5,12 @@
 
 int main(int argc, char const *argv[])
 {
-    int vt[N];
-
+    int vector[N];
+    system("cls || clear");
     for(int i = 0; i < N; i++)
     {
-        *(vt + i) = 1 + rand() % 100;
-        printf("%d\t", *(vt + i));
+        * (vector + i) = 1 + rand() % 100;
+        printf("%d\t", * (vector + i));
     }
     return 0;
     
