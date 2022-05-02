@@ -9,7 +9,7 @@ struct pc
     int anio;
     int procesador;
     int nucleos;
-}typedef pc;
+} typedef pc;
 
 char procesadorTipos[6][10] = {"INTEL", "AMD", "CELERON", "ATHLON", "CORE", "PENTIUM"};
 
