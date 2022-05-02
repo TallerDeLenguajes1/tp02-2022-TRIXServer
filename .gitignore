@@ -1,0 +1,4 @@
+#ignored extensions
+*.exe
+*.obj
+*.tds
