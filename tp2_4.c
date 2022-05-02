@@ -24,6 +24,8 @@ int main(int argc, char const *argv[])
     pc * pComputadora;
     pComputadora = computadoras;
 
+    system("cls || clear");
+
     for (int i = 0; i < cantComputadoras; i++)
     {
         printf("Computadora \t%d: \n", i + 1);
